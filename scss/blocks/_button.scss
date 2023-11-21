@@ -1,0 +1,14 @@
+.button {
+    text-align: center;
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 1.55;
+    font-weight: 500;
+    border-width: 3px;
+    border-radius: 30px;
+    background-color: #e0bcbc;
+    background-position: center center;
+    border-color: #ffdfdc;
+    border-style: solid;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}

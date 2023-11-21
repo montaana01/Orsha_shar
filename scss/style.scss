@@ -12,7 +12,9 @@
   margin: 0 auto;
 }
 
+@import "blocks/_button.scss";
 @import "blocks/_header.scss";
 @import "blocks/_firstScreen.scss";
 @import "blocks/_aboutUs.scss";
+@import "blocks/_contactUs.scss";
 @import "base/_media.scss";

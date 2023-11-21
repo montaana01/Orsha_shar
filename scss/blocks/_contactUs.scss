@@ -1,0 +1,62 @@
+.contactUs {
+    min-height: 250px;
+
+    &__btn {
+        display: block;
+        margin: 0 auto;
+        cursor: pointer;
+    }
+
+    &__wrapper {
+        margin: 40px 15px 20px 15px;
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+
+    &__block {
+        width: 400px;
+    }
+
+    &__header {
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 36px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+
+    &__descr {
+        text-indent: 40px;
+        text-align: justify;
+        font-size: 30px;
+        line-height: 30px;
+        font-weight: 300;
+    }
+
+    &__numbers {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        cursor: pointer;
+        font-size: 30px;
+        line-height: 30px;
+        font-weight: 300;
+
+
+        a {
+            margin: 17px 0 17px 0;
+            display: block;
+            text-decoration: none;
+            color: $gray;
+            transition: 0.8s all;
+
+            &:hover {
+                color: $pink;
+            }
+        }
+    }
+
+
+}
