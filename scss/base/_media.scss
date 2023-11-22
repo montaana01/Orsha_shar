@@ -1,55 +1,152 @@
-@media (max-width: 1200px) {
-    .menu {
-        &_item {
-            padding-right: 20px;
-        }
-
-        &_link {
-            font-size: 13px;
+@media (max-width: 992px) {
+    .aboutUS {
+        &__descr {
+            width: 750px;
         }
     }
 
-    .main_screen {
-        &_title {
-            font-size: 50px;
+    .contactUs {
+        &__block {
+            width: 335px;
         }
 
-        &_description {
-            font-size: 30px;
+        &__descr {
+            font-size: 25px;
+        }
+
+        &__numbers {
+            font-size: 25px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    header {
+        .container {
+            min-width: 100%;
+        }
+
+        .head {
+            &__links {
+                margin-right: 10px;
+            }
         }
     }
 
-    .reasons {
-        .advantage_block {
-            align-items: flex-start;
-            max-height: none;
-        }
-
-        .advantage_descr {
-            width: 300px;
-        }
+    .container {
+        max-width: 650px;
     }
 
-    .mobile {
-        &_item {
-            width: 290px;
+
+    .aboutUS {
+        &__descr {
+            width: 570px;
         }
     }
 
-    .world {
-        min-height: 600px;
+    .contactUs {
 
+        &__block {
+            width: 250px;
+        }
     }
 
-    footer {
-        padding: 14px 25px 14px 22px;
-        min-height: 130px;
+}
+
+@media (max-width: 660px) {
+    .container {
+        max-width: 590px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 5500px;
+    }
+}
+
+@media (max-width: 575px) {
+    header {
+        .container {
+            min-width: 100%;
+        }
+
+        .head {
+            &__links {
+                display: none;
+            }
+        }
     }
 
-    .footer {
+    .container {
+        max-width: 500px;
+    }
 
-        &_links {
-            width: 390px;
+    .aboutUS {
+        &__descr {
+            width: 350px;
+        }
+    }
+
+    .contactUs {
+        &__wrapper {
+            flex-direction: column;
+        }
+
+        &__block {
+            width: 350px;
+        }
+
+        &__descr {
+            text-indent: 0;
+            text-align: center;
+        }
+
+    }
+}
+
+
+@media (max-width: 425px) {
+    header {
+        .container {
+            min-width: 100%;
+        }
+
+        .head {
+            &__links {
+                display: none;
+            }
+        }
+    }
+
+    .container {
+        max-width: 350px;
+    }
+
+    .firstScreen {
+        .title {
+            width: 330px;
+        }
+    }
+
+    .aboutUS {
+        &__descr {
+            width: 330px;
+        }
+    }
+
+    .contactUs {
+        &__wrapper {
+            flex-direction: column;
+        }
+
+        &__block {
+            width: 330px;
+        }
+
+        &__descr {
+            text-indent: 0;
+            text-align: center;
         }
     }
 }

@@ -27,7 +27,7 @@
         justify-content: space-between;
         align-items: center;
 
-        &_menu {
+        &__menu {
             .line {
                 border-radius: 5px;
                 width: 30px;
@@ -37,7 +37,7 @@
             }
         }
 
-        &_logo {
+        &__logo {
             margin: 0 auto;
 
             img {
@@ -45,7 +45,7 @@
             }
         }
 
-        &_links {
+        &__links {
             justify-content: end;
 
             a {
